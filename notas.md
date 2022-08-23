@@ -41,4 +41,20 @@ git add .
 git commit -m "Primer Commit"
 git commit -m "Segunda carga - Se ordena y mejorá el Código inicial y se agregan modelos ML"
 git commit -m "Tercera carga - Se concluye el código de la versión alfa, se agregan más modelos ML y las conclusiones"
+git commit -m "4ta carga - Se concluye el código de la versión alfa del proyecto de Aerolíneas"
+git commit -m "5ta carga - Revisión de Archivo gitignore"
+
+git revert HEAD
+git reset --soft HEAD~1
+
+git revert 1062c82
+
 git push -u origin jorge
+
+
+git checkout main
+git status
+
+git add .
+git push -u origin main
+
