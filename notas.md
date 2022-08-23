@@ -12,3 +12,22 @@ pip install tensorflow
 
 import seaborn as sns
 import matplotlib.pyplot as plt 
+
+git init
+git clone https://github.corp.globant.com/jorgeantonio-lopez/Challenge-Data-Scientist-Airline-Dataframe.git
+
+git remote add origin https://github.corp.globant.com/jorgeantonio-lopez/Challenge-Data-Scientist-Airline-Dataframe.git
+git branch -M main
+git branch -m main jorge
+git push -u origin main
+
+git remote set-url origin ssh://github.corp.globant.com/jorgeantonio-lopez/Challenge-Data-Scientist-Airline-Dataframe.git
+git remote set-url origin https://github.corp.globant.com/jorgeantonio-lopez/Challenge-Data-Scientist-Airline-Dataframe.git
+git push -u origin
+git push --set-upstream jorge 
+git push origin refs/remotes/origin/development
+
+git remote set-url origin https://github.corp.globant.com/jorgeantonio-lopez/Challenge-Data-Scientist-Airline-Dataframe.git
+
+git add .
+git config core.autocrlf true
