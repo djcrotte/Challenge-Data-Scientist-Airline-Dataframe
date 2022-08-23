@@ -10,6 +10,10 @@ pip install sklearn
 conda install -c conda-forge keras
 pip install tensorflow
 
+conda activate Challenge_Airlines
+
+conda env export --name Challenge_Airlines > airlines_env.yml
+
 import seaborn as sns
 import matplotlib.pyplot as plt 
 
@@ -31,3 +35,10 @@ git remote set-url origin https://github.corp.globant.com/jorgeantonio-lopez/Cha
 
 git add .
 git config core.autocrlf true
+git branch
+
+git add .
+git commit -m "Primer Commit"
+git commit -m "Segunda carga - Se ordena y mejorá el Código inicial y se agregan modelos ML"
+git commit -m "Tercera carga - Se concluye el código de la versión alfa, se agregan más modelos ML y las conclusiones"
+git push -u origin jorge
